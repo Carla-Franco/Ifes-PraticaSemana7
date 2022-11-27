@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"
+        defer></script>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">                         
+    <title>Questão 09</title>
+</head>
+<p><a href="index.html">Voltar ao Índice</a></p>
+<h1>Questão 09</h1>
+<hr>
+<body>
+    <div class="container">
+        <form class="col-12 col-lg-8 col-xl-6 mx-auto">
+            <h1 class="">Cadastro de Cliente</h1>
+            <hr>
+            <div class="row mb-3 g-3">
+                <div class="input-group col-form-label col-form-label-lg col-12">
+                    <i class="bi-person input-group-text"></i>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome Completo">
+                </div>
+                <div class="input-group col-form-label col-form-label-lg col-12 col-lg">
+                    <i class="bi-person-vcard input-group-text"></i>
+                    <input type="text" class="form-control" id="CPF" placeholder="CPF">
+                </div>
+                <div class="input-group col-form-label col-form-label-lg col-12 col-lg">
+                    <i class="bi-balloon input-group-text"></i>
+                    <input type="date" class="form-control" id="data" placeholder="dd/mm/aaaa">
+                </div>
+                <div class="input-group col-form-label col-form-label-lg col-12 col-lg">
+                    <i class="bi-gender-ambiguous input-group-text"></i>
+                    <select name="genero" id="genero" class="form-select">
+                        <option value="Selecione opção">Gênero...</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Masculino">Masculino</option>
+                    </select>
+                </div>
+                <div class="input-group col-form-label col-form-label-lg col-12">
+                    <i class="bi-mailbox input-group-text"></i>
+                    <textarea name="endereco" id="endereco" class="form-control" placeholder="Endereço Completo"></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-lg">Salvar</button>
+        </form>
+    </div>
+    
+</body>
+
+</html>
